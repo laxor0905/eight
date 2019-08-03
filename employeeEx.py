@@ -23,17 +23,10 @@ while running:
     number = int(input("Enter a number: "))
 
     if number == 1:
-        print("Enter employee name: ", end="")
-        a = (input())
-
-        print("Enter department: ", end="")
-        b = input()
-
-        print("Enter position: ", end="")
-        c = input()
-
-        print("Enter rate: ", end="")
-        d = int(input())
+        a = input("Enter employee name: ")
+        b = input("Enter department: ")
+        c = input("Enter position: ")
+        d = int(input("Enter rate: "))
 
         employees.append(Employees(a, b, c, d))
 
