@@ -15,7 +15,7 @@ class Employees:
 
 
 while running:
-    print("(1) Add new employee")
+    print("(1) Add employee")
     print("(2) Enter hourly of employee")
     print("(3) Show employee information")
     print("(4) Exit")
